@@ -1,6 +1,6 @@
 def prime?(number)
-  if number == 2 || number == 1 || number % 3
-    return true
+  if number >= 2 
+  (2..number-1).all?
 
 
 
