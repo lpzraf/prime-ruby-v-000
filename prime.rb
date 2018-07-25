@@ -1,5 +1,5 @@
 def prime?(number)
-  if number >= 2 
+  if number >= 3 
   (2..number-1).all? do |x| 
     x % number != 0 
   end
